@@ -1,5 +1,11 @@
- {{#each artists}}
+ 
+  <div class="row">
+  {{#each artists}}
+  <div class="container-random">
   <img src="{{this.images.0.url}}" alt="{{this.name}}">
   <h3>{{this.name}}</h3>
   <a href="/albums/{{this.id}}">View Albums</a>
+  </div>
   {{/each}}
+  </div>
+ 

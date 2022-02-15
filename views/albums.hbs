@@ -1,5 +1,9 @@
-{{#each albums}}
+<div class="row">
+ {{#each albums}}
+ <div class="container-random">
   <img src="{{this.images.0.url}}" alt="{{this.name}}">
   <h3>{{this.name}}</h3>
-  <a href="/tracks/{{this.id}}">View Tracks</a>
-  {{/each}}
+  <a href="/tracks/{{this.id}}">View Tracks</a> 
+ </div>
+  {{/each}} 
+</div>

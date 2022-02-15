@@ -1,0 +1,95 @@
+.row img { 
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 2em;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .row-tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+  .row-tracks h3 {
+    color: black;
+  }
+  audio {
+    width: 500px;
+  }
+  .row a {
+    text-decoration: none;
+    font-size: 1em;
+    text-decoration: none;
+    color:#bfbfbf;
+    border: #bfbfbf solid 2px;
+    border-radius: 3px;
+    padding: 2px 10px;
+    background-color: transparent;
+  }
+  .container-random {
+    width: 300px;
+    border: #bfbfbf 1px solid;
+    padding: 15px ;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  }
+  .background {
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
+  h3 {
+    color:#bfbfbf;
+  }
+  form {
+    
+    text-align: center;
+    font-size: 300px;
+
+  }
+  .form button{
+    font-size: 20px;
+    text-decoration: none;
+    color:#ffffff;
+    border: #ffffff solid 2px;
+    border-radius: 3px;
+    padding: 2px 6px;
+    background-color: transparent;
+   }
+   .form button:hover {
+    border: rgb(116, 57, 2) solid 2px;
+    background-color: rgb(116, 57, 2);
+    color: #bfbfbf;
+  }
+   input {
+     width: 800px;
+     height: 50px;
+    background: transparent;
+    border: #ffffff solid 2px;
+    border-radius: 20px;
+    
+   }
